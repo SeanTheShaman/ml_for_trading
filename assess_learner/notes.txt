@@ -1,0 +1,16 @@
+
+- Will be a regression problem not classification 
+- Do not treat data as time series - ordering of training sets pulled from data doesn't matter 
+Objective: Predict what the return for MCSI Emerging Markets (EM) index will be on the basis of other indexes returns 
+
+Istanbul.csv: 
+- 1st column - date - can ignore 
+- 2nd - Last-1 column are X's/factors 
+- Last column (EM) is Y
+
+### BUILD AND EVALUATE 3 TYPES OF LEARNERS
+1. Classical Decision Tree Learner 
+
+2. Random Decision Tree Learner 
+
+3. Bootstrapping Aggregator Learner 
